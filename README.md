@@ -1,1 +1,1 @@
-# chrome-command-palette
+# browser-command-palette
