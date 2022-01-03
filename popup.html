@@ -5,7 +5,20 @@
     <link rel="stylesheet" href="button.css" />
 </head>
 <body>
-    <button id="changeColor"></button>
-    <script src="popup.js"></script>
+    <div id="paletteWrapper" class="palette-wrapper">
+        <div id="paletteHeader" class="palette-header">
+            <h1>Command Palette</h1>
+        </div>
+        <div id="palette-container" class="palette-container">
+            <div class="palette-form">
+                <label for="text"></label>
+                <input name="text" type="text" id="paletteText">
+            </div>
+        </div>
+        <div class="palette-buttons">
+            <button id="changeColor"></button>
+        </div>
+    </div>
+    <script src="./popup.js"></script>
 </body>
 </html>
